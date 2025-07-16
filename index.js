@@ -1,6 +1,7 @@
 //Start express
 const express = require('express')
 const app = express()
+app.use(express.static('dist'))
 
 //Use CORS
 const cors = require('cors')
