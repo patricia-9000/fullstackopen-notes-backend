@@ -3,10 +3,6 @@ const express = require('express')
 const app = express()
 app.use(express.static('dist'))
 
-//Use CORS
-const cors = require('cors')
-app.use(cors())
-
 //Use JSON parser
 app.use(express.json())
 
